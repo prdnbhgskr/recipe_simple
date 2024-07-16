@@ -1,0 +1,28 @@
+
+.title {
+    color: whitesmoke ;
+    background-color: darkolivegreen;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Monaco";
+}
+
+.headim {
+    text-align: center;
+}
+
+.desc {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.list {
+    background-color: lightgrey;
+    font-size: 18px;
+}
+
+.list li {
+    color: maroon;
+}
+
