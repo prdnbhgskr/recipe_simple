@@ -19,10 +19,30 @@ body {
     margin: 0;
 }
 
-/* Header Image Container */
-.headim {
+/* Credit Styling */
+.credit {
+    font-size: 1em;
     text-align: center;
-    margin: 20px 0;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.credit a {
+    color: #b76e79;
+    text-decoration: none;
+}
+
+.credit a:hover {
+    text-decoration: underline;
+}
+
+/* Subtitle Styling */
+.subtitle {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #b76e79;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8em;
 }
 
 /* Description Paragraphs */
@@ -33,31 +53,13 @@ body {
     margin: 20px;
 }
 
-/* List Styles */
-.list {
-    background-color: lightgrey;
+/* Ingredients and Steps List Styling */
+.ingredients, .steps {
     font-size: 1.2em;
-    margin: 20px;
-    padding: 20px;
-    list-style-type: none;
-    border-radius: 10px;
+    margin: 20px 40px;
 }
 
-.list li {
-    color: maroon;
-    margin: 10px 0;
-}
-
-.list li a {
-    color: maroon;
-    text-decoration: none;
-}
-
-.list li a:hover {
-    text-decoration: underline;
-}
-
-/* Image Styles */
+/* Image Styling */
 img {
     display: block;
     margin: 20px auto;
